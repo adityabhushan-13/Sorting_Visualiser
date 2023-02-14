@@ -1,48 +1,21 @@
 h1{
-    margin-left: 440px;
-    font-size: 50px;
+    text-align: center;
 }
 #heading{
-    margin-left: 504px;
+    text-align: center;
     font-size: 50px;
 }
 
 #box{
+    margin-left: 250px;
+    margin-right: 250px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+
 }
 
-#new_array{
-    width:100px;
-    height:40px;
-    margin-left: 180px;
-    border: 2px solid black;
-    background-color:antiquewhite;
-    cursor: pointer;
-}
-#new_array:hover{
-    box-shadow: 2px 2px;
-    color: brown;
-}
-#selection_sort:hover{
-    box-shadow: 2px 2px;
-    color: brown;
-}
-#insertion:hover{
-    box-shadow: 2px 2px;
-    color: brown;
-}
-#bubble:hover{
-    box-shadow: 2px 2px;
-    color: brown;
-}
-#merge:hover{
-    box-shadow: 2px 2px;
-    color: brown;
-}
-
-#selection_sort{
+button{
     width:100px;
     height:40px;
     border: 2px solid black;
@@ -50,37 +23,9 @@ h1{
     cursor: pointer;
 }
 
-#insertion{
-    width:100px;
-    height:40px;
-    border: 2px solid black;
-    background-color:antiquewhite;
-    cursor: pointer;
-}
-
-#bubble{
-    width:100px;
-    height:40px;
-    border: 2px solid black;
-    background-color:antiquewhite;
-    cursor: pointer;
-}
-
-#merge{
-    width:100px;
-    height:40px;
-    border: 2px solid black;
-    margin-right:220px;
-    background-color:antiquewhite;
-    cursor: pointer;
-}
-
-li{
-    animation-duration: 1s;
-    transition-duration: 1s;
-    text-align: center;
-    display: inline-block;
-    margin-left: 25px;
+button:hover{
+    box-shadow: 2px 2px;
+    color: brown;
 }
 
 #elements{
@@ -89,17 +34,23 @@ li{
     justify-content: center;
     align-items: flex-end;
     margin-top: 100px;
-    margin-left:120px;
-    height:500px;
+    height:470px;
 } 
 
+li{
+    transition-duration: 1s;
+    text-align: center;
+    display: inline-block;
+}
+
 #arr{
-    display: block;
+    display: flex;
     border: 4px solid purple;
     width: 500px;
     height: 50px;
     font-size: 30px;
-    margin-left: 504px;
+    justify-content:space-evenly;
+    margin-left: 480px;
 }
 
 #submitBtn{
@@ -110,6 +61,9 @@ li{
     border: 3px solid peachpuff;
     border-radius: 30px;
     background-color: rgb(57, 165, 217);
-    margin-left: 680px;
-    cursor: pointer;
+    margin-left: 670px;
+}
+
+#upcoming{
+    height: 300px;
 }

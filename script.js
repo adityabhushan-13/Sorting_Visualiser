@@ -5,8 +5,8 @@ function swap(q,f,maxvalue){
     var temp2=dnl.item(q).innerHTML;
     dnl.item(f).innerHTML=`${temp2}`;
     dnl.item(q).innerHTML=`${temp1}`;
-    var height1=(temp1*500)/maxvalue;
-    var height2=(temp2*500)/maxvalue;
+    var height1=(temp1*470)/maxvalue;
+    var height2=(temp2*470)/maxvalue;
     dnl.item(f).style.transition="all 1s ease";
     dnl.item(f).style.height=height2+"px";
     dnl.item(f).style.backgroundColor="green";
@@ -33,9 +33,9 @@ function makehistogram(){
     {
         var item = dnl.item(i);
         var value = item.innerHTML;
-        var value4=(value*500)/value3;	
+        var value4=(value*470)/value3;	
         item.style.height=value4+"px";
-        item.style.margin="20px";
+        item.style.marginRight="30px";
         item.style.width="40px";
         item.style.backgroundColor="red";    
     }	 
@@ -70,7 +70,7 @@ function selection_sort(){
        }
        swaps.push(value)
     }
-    interval = 1000,
+    interval = 1300,
     increment = 1;
     f=0;
     swaps.forEach(async function() {
@@ -106,7 +106,7 @@ function insertion_sort(){
        var value=item.innerHTML;
        swaps.push(value)
     }
-    interval = 500,
+    interval = 800,
     increment = 1;
     var d=dnl.length;
     var f=0;
@@ -158,7 +158,7 @@ function bubble_sort(){
        var value=item.innerHTML;
        swaps.push(value)
     }
-    interval = 300,
+    interval = 500,
     increment = 1;
     var d=dnl.length;
     var f=0;
@@ -216,7 +216,6 @@ function merge_sort(){
             maxi=swaps[i];
         }
     }
-    console.log(maxi);
     interval = 700,
     increment = 1;
     var s=0;
@@ -238,7 +237,6 @@ function merge_sort(){
         }    
     }
     bc(0,dnl.length-1,0);
-    console.log(array);
     var s1=0;
     var e1=0;
     var s2=0;
