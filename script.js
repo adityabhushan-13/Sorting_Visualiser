@@ -78,12 +78,12 @@ function selection_sort(){
         var minvalue=837376373;
         for(var p=f;p<dnl.length;p++){
             var value=dnl.item(p).innerHTML;
-            if(value<minvalue){
+            if(Number(value)<Number(minvalue)){
                 minvalue=value;
             }
         }
         for(var q=f;q<swaps.length;q++){
-            if(swaps[q]==minvalue){
+            if(Number(swaps[q])==minvalue){
                 swap(q,f,maxvalue);
                 var tempi=swaps[q];
                 swaps[q]=swaps[f];
