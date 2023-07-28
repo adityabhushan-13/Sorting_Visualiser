@@ -3,7 +3,7 @@ Technologies_used: HTML,CSS,JavaScript;
 
 Demo You can access the live demo of the application by going through the link given below
 
-([https://github-production-user-asset-6210df.s3.amazonaws.com/108828387/253873688-36a67198-b40e-4746-a100-5cc543aebe62.mp4])
+([https://drive.google.com/file/d/1QaliFpk8UcFbUQlt2kGJZfQpD-2XJYlW/view?usp=share_link])
 
 if you want to visit the site, you can go to link given below
 
